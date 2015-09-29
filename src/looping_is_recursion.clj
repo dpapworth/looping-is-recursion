@@ -62,7 +62,7 @@
            fn-0 1
            fn-1 0]
       (if (== l-n n)
-        (+ fn-0)
+        fn-0
         (recur (inc l-n) (+ fn-0 fn-1) fn-0)))))
 
 (defn cut-at-repetition [a-seq]
